@@ -1,6 +1,6 @@
 class ChangeBalanceToFloat < ActiveRecord::Migration[5.1]
   def change
     
-change_column :users, :part_number, :text
+change_column :users, :balance, :float
   end
 end
